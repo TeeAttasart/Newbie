@@ -1,0 +1,119 @@
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+body{
+    background-color: rgb(255, 255, 255);
+    font-family: Tahoma;
+
+}
+.head{
+    background-color: #433D3C;
+    font-family: Tahoma;
+    color: rgb(11, 161, 146);
+    
+    
+    padding: 30px 16px;
+    border: 0px;
+    margin: 0px;
+    
+    font-size: 40px;
+    
+    text-align: center;
+
+}
+.head a{
+    text-decoration: none;
+
+}
+.nav {
+    width: 100%;
+    background-color: #CE1212;
+    padding: 10px 0px;
+    position: absolute;
+    font-size: 18px;
+    
+}
+.nav li{
+    list-style: none;
+    display: inline-block;
+    border-left: 1px ;
+    padding: 10px 40px;
+
+}
+.nav li a{
+    color: white;
+    text-decoration: tomato;
+    transition: 5s;
+    border: 10px wheat;
+}
+.nav li a:hover{
+    background-color: wheat;
+
+}
+.NAKOYA-top:hover{
+    background-color: rgb(255, 255, 255);
+
+}
+
+.NAKOYA-mid{
+    background-color: rgb(255, 255, 255);
+    font-family: Tahoma;
+    color: rgb(11, 161, 146);
+    
+    padding: auto;
+    border: 0px;
+    margin: 0px;
+    
+    font-size: 18px;
+    
+    text-align: center;
+    justify-content: center;
+
+}
+input{
+    
+    float: right;
+    margin-right: 10;
+    border: 0px solid #ffffff7e;
+    border-radius: 0px;
+
+    width: 10%;
+    height: 30px;
+
+    padding-inline-start: 5px;
+    padding-bottom: 1px;
+    margin-bottom: 0px;
+
+    font-size: 18px;
+
+}
+button{
+    float: right;
+
+    font-size: 18px;
+    height: 31px;
+
+    border: oldlace;
+    transition: 5s;
+    margin-right: 10px ;
+    padding-inline-start: 5px;
+    padding-inline-end: 5px;
+    
+    background-color: #ec2949;
+    color: rgba(0, 0, 0, 0.575);
+    
+    cursor: pointer;
+   
+}
+button:hover{
+    background-color: rgb(255, 255, 255);
+
+}
+input:focus{
+    width: 250px;
+    transition: 5s;
+    
+}
+
